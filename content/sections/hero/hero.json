@@ -1,22 +1,22 @@
 {
-  "intro": "Hej",
+  "intro": "Hey",
   "heroPhoto": {
-    "src": "../../images/lego-dummy.png",
+    "src": "../../images/TheebanProfile.jpg",
     "alt": "My Photo"
   },
   "image": {
     "src": "../../images/waving-hand.png",
     "alt": "Waving Hand Emoji"
   },
-  "title": "I'm a Gatsby Starter",
+  "title": "I'm Theeban Kumaresan!",
   "subtitle": {
-    "prefix": "I do all the setup ",
-    "highlight": "for you",
+    "prefix": "I'm a recent Computer Engineering graduate from the ",
+    "highlight": "University of Ottawa",
     "suffix": "."
   },
-  "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
+  "description": "",
   "socialProfiles": {
-    "from": ["LinkedIn", "Medium", "Github", "Mail"],
-    "showIcons": false
+    "from": ["LinkedIn", "Github", "Mail"],
+    "showIcons": true
   }
 }

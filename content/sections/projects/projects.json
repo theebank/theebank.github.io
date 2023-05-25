@@ -1,44 +1,78 @@
 {
   "projects": [
-    {
+      {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "category": "Web Development",
+      "title": "3-Dimensional Scatter Plot",
+      "description": "A 3-Dimensional Scatter Plot created with NextTS and react-three-fiber",
+      "tags": ["Web Development","TypeScript","React"],
       "image": {
-        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
-        "alt": "Quick Setup",
-        "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        "src": "../../images/3DScatter.png",
+        "alt": "3DScatter"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-        },
-        {
-          "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+          "url": "https://github.com/theebank/3DScatterPlotNextTS"
         }
       ]
     },
-    {
+        {
       "visible": true,
-      "category": "🧰 EXTENDABLE LAYOUT",
-      "title": "Add more sections!",
-      "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-      "tags": ["Custom Sections", "Easy-2-Use"],
+      "category": "Mobile/Blockchain Development",
+      "title": "Proof-of-Purchase (POP) Code",
+      "description": "An alternative to paper receipts. This was my capstone projects I had worked on alongside 5 of my classmates in my final year of university. I had worked on creating various pages in the application as well as the smart contract used for verifying receipt legitimacy.",
+      "tags": ["Mobile Development","Smart Contract","Blockchain","Flutter/Dart", "Solidity","Ethereum"],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
-        "alt": "Extendable Layout"
+        "src": "../../images/Capstone.png",
+        "alt": "Blockchain Verification"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "url": "https://github.com/JustBryse/Flutter_QR_Code_App"
+        }
+      ]
+    },
+        {
+      "visible": true,
+      "category": "Web Development",
+      "title": "SpaceBook",
+      "description": "Front-End Web Application which fetches data from NASA APOD API and displays it, allowing the user to 'Like' and 'Unlike' the image",
+      "tags": ["Front-end","React","JavaScript"],
+      "image": {
+        "src": "../../images/SpaceBook.png",
+        "alt": "SpaceBook"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/theebank/SpaceBook"
+        }
+      ]
+    },
+    
+    
+    
+    {
+      "visible": true,
+      "category": "Web Development",
+      "title": "Theeban's Car Shop",
+      "description": "E-Commerce store using React.js, Commerce.js and Stripe",
+      "tags": ["Front-end", "React","JavaScript"],
+      "image": {
+        "src": "../../images/E-Commerce Store.png",
+        "alt": "Quick Setup",
+        "linkTo": "https://github.com/theebank/ECommerce-Store"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/theebank/ECommerce-Store"
         }
       ]
     }
+
   ],
   "button": {
     "visible": true,

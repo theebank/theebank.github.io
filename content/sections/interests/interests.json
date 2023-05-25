@@ -1,58 +1,44 @@
 {
   "interests": [
     {
-      "label": "Quick and Easy Setup",
+      "label": "Web Development",
+      "image": {
+        "src": "../../images/FrontEndDev.jpg",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Artificial Intelligence",
+      "image": {
+        "src": "../../images/AI.jpeg",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Game Development",
       "image": {
         "src": "../../images/joystick.png",
         "alt": ""
       }
     },
     {
-      "label": "Content via Markdown",
+      "label": "🏀 Basketball",
       "image": {
-        "src": "../../images/notebook.png",
+        "src": "",
         "alt": ""
       }
     },
     {
-      "label": "Responsive Design",
+      "label": "👟 Active Lifestyle",
       "image": {
-        "src": "../../images/nail-polish.png",
+        "src": "",
         "alt": ""
       }
     },
     {
-      "label": "Medium Integration",
+      "label": "🏎 Motorsport",
       "image": {
-        "src": "../../images/medium.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Animations",
-      "image": {
-        "src": "../../images/gem-stone.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "PWA (Offline Support)",
-      "image": {
-        "src": "../../images/mobile-phone.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Modern Tech-Stack",
-      "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Blazing Fast",
-      "image": {
-        "src": "../../images/high-voltage.png",
+        "src": "",
         "alt": ""
       }
     }
@@ -60,6 +46,6 @@
   "button": {
     "visible": true,
     "label": "+ Load More",
-    "initiallyShownInterests": 5
+    "initiallyShownInterests": 3
   }
 }

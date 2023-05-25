@@ -4,12 +4,11 @@ sectionId: imprint
 
 #### Information pursuant to § 5 TMG
 
-YOURNAME<br />
-YOURSTREET<br />
-YOURCITY<br />
-YOURCOUNTRY
+Theeban Kumaresan<br />
+Toronto<br />
+Canada
 
-E-Mail Address: <u>YOURMAIL@DOMAIN.COM</u>
+E-Mail Address: <u>kumaresantheeban8@gmail.com</u>
 
 ---
 
