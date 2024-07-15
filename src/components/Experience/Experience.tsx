@@ -4,7 +4,7 @@ import { GatsbyImage } from "gatsby-plugin-image";
 import { Animation } from "gatsby-theme-portfolio-minimal";
 import { useMediaQuery } from "gatsby-theme-portfolio-minimal/src/hooks/useMediaQuery";
 import { Icon } from "gatsby-theme-portfolio-minimal/src/components/Icon";
-import * as classes from "./style.module.css";
+import * as classes from "../Experience/style.module.css";
 
 enum LinkType {
   external = "external",
@@ -43,13 +43,26 @@ export default function Experience(props: ExperienceProps): React.ReactElement {
       }}
     >
       <div className={classes.Details}>
-        <h2 className={classes.Title}>{props.data.title}</h2>
-        <h4 className={classes.Title}>{props.data.companyTitle}</h4>
         <div>
-          {props.data.bulletpoints &&
-            props.data.bulletpoints.length !== 0 &&
-            props.data.bulletpoints.map((bulletpoint, key) => {
-              return <h5 key={key}>•{bulletpoint}</h5>;
+          <h2 className={classes.Title}>{props.data.title}</h2>
+          <h6 className={classes.CompanyTitle}>{props.data.companyTitle}</h6>
+        </div>
+        {props.data.bulletpoints && props.data.bulletpoints.length !== 0 && (
+          <ul className={classes.BulletPoints}>
+            {props.data.bulletpoints.map((bulletpoint, key) => {
+              return <li key={key}>{bulletpoint}</li>;
+            })}
+          </ul>
+        )}
+        <div className={classes.Tags}>
+          {props.data.tags &&
+            props.data.tags.length !== 0 &&
+            props.data.tags.map((tag, key) => {
+              return (
+                <span key={key}>
+                  <u>{tag}</u>
+                </span>
+              );
             })}
         </div>
       </div>

@@ -28,17 +28,40 @@
 
 .Project .Details .Title {
     margin-top: 0.625rem;
-    margin-bottom: 0.625rem;
+    margin-bottom: -0.5rem;
     font-size: 1.375rem;
     line-height: 1.625rem;
     font-weight: 700;
 }
+.Project .Details .CompanyTitle {
+    font-size: 1rem; 
+    line-height: 1.25rem; 
+    font-weight: 400; 
+    margin-top: 0.5rem; 
+    margin-bottom: 0rem;
+}
+.Project .Details .BulletPoints {
+
+    list-style-type: disc; 
+    padding-left: 1.5rem; 
+    margin-top: 0.5rem;
+    margin-bottom: -1rem;
+}
+
+.Project .Details .BulletPoints li {
+    margin-bottom: 0.5rem; 
+    line-height: 1.5rem; 
+    font-size: 0.9rem; 
+}
+
 
 .Project .Details .Tags {
     display: flex;
     flex-wrap: wrap;
     margin-top: 1.5rem;
     line-height: 1.2rem;
+    font-size: 0.9rem;
+    font-weight: 400;
 }
 
 .Project .Details .Tags span {

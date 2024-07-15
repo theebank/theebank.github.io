@@ -19,6 +19,7 @@
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
+        { "label": "Experience", "url": "/#experience"},
         { "label": "Projects", "url": "/#projects" },
         { "label": "Github", "url": "/#github" }
       ],
