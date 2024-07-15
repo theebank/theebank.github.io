@@ -1,10 +1,11 @@
 {
-  "homepage": "https://theebank.github.io/",
+  "homepage": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme#readme",
   "name": "gatsby-starter-portfolio-minimal-theme",
   "version": "1.0.0",
   "description": "A Gatsby Starter Project to easily get started with the Portfolio Minimal Theme.",
   "scripts": {
-    "predeploy": "npm run build", "deploy": "gatsby build && gh-pages -d public -b main",
+    "predeploy": "npm run build",
+    "deploy": "gatsby build && gh-pages -d public -b main",
     "clean": "gatsby clean",
     "develop": "gatsby develop",
     "build": "gatsby build",
@@ -23,7 +24,6 @@
   "author": "Konstantin Münster <mail@konstantin.digital>",
   "license": "0BSD",
   "starter-name": "gatsby-starter-portfolio-minimal-theme",
-  "homepage": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme.git"
@@ -42,5 +42,8 @@
     "animations",
     "dark-mode",
     "gdpr-compliant"
-  ]
+  ],
+  "devDependencies": {
+    "ajv": "^8.17.1"
+  }
 }
