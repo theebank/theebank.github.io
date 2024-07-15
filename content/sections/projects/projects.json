@@ -1,27 +1,62 @@
 {
   "projects": [
-      {
+        {
       "visible": true,
-      "category": "Web Development",
-      "title": "3-Dimensional Scatter Plot",
-      "description": "A 3-Dimensional Scatter Plot created with NextTS and react-three-fiber",
-      "tags": ["Web Development","TypeScript","React"],
+      "category": "Mobile Development",
+      "title": "FITNIS",
+      "description": "Actively developing a mobile fitness app to monitor users’ weightlifting progress and overall health",
+      "tags": ["Mobile Development","React Native","TypeScript", "Express"],
       "image": {
-        "src": "../../images/3DScatter.png",
-        "alt": "3DScatter"
+        "src": "../../images/Lift_Tracker.png",
+        "alt": "Lift Tracker"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/theebank/3DScatterPlotNextTS"
+          "url": "https://github.com/theebank/FITNIS"
         }
       ]
     },
+    {
+      "visible": true,
+      "category": "Embedded Systems",
+      "title": "Keypad System",
+      "description": "A Keypad system centered around the ARM Cortex M4-based STM32F407 Microcontroller with a servo motor used to control the locking mechanism. The actual keypad interface is implemented using React to allow accessibility on multiple devices. In order to interface between the two, a Flask API is used to both control access as well as keep logs of who accesses the system.",
+      "tags": ["Embedded Systems", "C++", "Full Stack", "React", "Flask", "JavaScript", "Python"],
+      "image": {
+        "src": "../../images/stm32f407.png",
+        "alt": "STM32F407 Board"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/theebank/STM32F407_EntryCode"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "Full-Stack Web Development",
+      "title": "Crypto Price Tracker",
+      "description": "A Full-stack crypto price tracking application built using React, Flask and data stored on a local postgres database ran using Docker. Data is automatically fetched from a flask REST api which can either gather data using coinmarketcap's api or scraping the coinmarketcap.com webpage.",
+      "tags": ["Full-Stack Web Development","React","Flask", "Python", "Postgres", "REST"],
+      "image": {
+        "src": "../../images/cryptopricetracker.png",
+        "alt": "Crypto Price Tracker"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/theebank/CryptoScraper"
+        }
+      ]
+    },
+      
         {
       "visible": true,
       "category": "Mobile/Blockchain Development",
       "title": "Proof-of-Purchase (POP) Code",
-      "description": "An alternative to paper receipts. This was my capstone projects I had worked on alongside 5 of my classmates in my final year of university. I had worked on creating various pages in the application as well as the smart contract used for verifying receipt legitimacy.",
+      "description": "Point of sale system which included an environmentally friendly alternative to paper receipts. Receipt legitimacy is verified by comparing a smart contract on the Ethereum blockchain against an SQL Database.",
       "tags": ["Mobile Development","Smart Contract","Blockchain","Flutter/Dart", "Solidity","Ethereum"],
       "image": {
         "src": "../../images/Capstone.png",
@@ -33,50 +68,12 @@
           "url": "https://github.com/JustBryse/Flutter_QR_Code_App"
         }
       ]
-    },
-        {
-      "visible": true,
-      "category": "Web Development",
-      "title": "SpaceBook",
-      "description": "Front-End Web Application which fetches data from NASA APOD API and displays it, allowing the user to 'Like' and 'Unlike' the image",
-      "tags": ["Front-end","React","JavaScript"],
-      "image": {
-        "src": "../../images/SpaceBook.png",
-        "alt": "SpaceBook"
-      },
-      "links": [
-        {
-          "type": "github",
-          "url": "https://github.com/theebank/SpaceBook"
-        }
-      ]
-    },
-    
-    
-    
-    {
-      "visible": true,
-      "category": "Web Development",
-      "title": "Theeban's Car Shop",
-      "description": "E-Commerce store using React.js, Commerce.js and Stripe",
-      "tags": ["Front-end", "React","JavaScript"],
-      "image": {
-        "src": "../../images/E-Commerce Store.png",
-        "alt": "Quick Setup",
-        "linkTo": "https://github.com/theebank/ECommerce-Store"
-      },
-      "links": [
-        {
-          "type": "github",
-          "url": "https://github.com/theebank/ECommerce-Store"
-        }
-      ]
     }
 
   ],
   "button": {
     "visible": true,
     "label": "Visit on Github",
-    "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
+    "url": "https://github.com/theebank"
   }
 }

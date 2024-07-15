@@ -1,16 +1,23 @@
 {
   "interests": [
     {
-      "label": "Web Development",
+      "label": "🖥️ Embedded Systems",
       "image": {
-        "src": "../../images/FrontEndDev.jpg",
+        "src": "",
         "alt": ""
       }
     },
     {
-      "label": "Artificial Intelligence",
+      "label": "⚡️ Hardware Engineering",
       "image": {
-        "src": "../../images/AI.jpeg",
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "label": "🛜 Web Development",
+      "image": {
+        "src": "",
         "alt": ""
       }
     },
@@ -22,6 +29,13 @@
       }
     },
     {
+      "label": "🧗‍♂️  Rock Climbing",
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
       "label": "🏀 Basketball",
       "image": {
         "src": "",
@@ -29,14 +43,14 @@
       }
     },
     {
-      "label": "👟 Active Lifestyle",
+      "label": "🏎 Motorsport",
       "image": {
         "src": "",
         "alt": ""
       }
     },
     {
-      "label": "🏎 Motorsport",
+      "label": "🧳 Travel & Photography",
       "image": {
         "src": "",
         "alt": ""

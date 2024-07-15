@@ -22,11 +22,6 @@
         { "label": "Projects", "url": "/#projects" },
         { "label": "Github", "url": "/#github" }
       ],
-      "ctaButton": {
-        "openNewTab": true,
-        "label": "Resume",
-        "url": "https://docs.google.com/document/d/1RodUb2kDprxtxaMb9ufylheaFyZTO8ZrtCy_MCEEw8c/edit"
-      },
       "footer": [
         { "label": "Privacy", "url": "/privacy" },
         { "label": "Imprint", "url": "/imprint" }
