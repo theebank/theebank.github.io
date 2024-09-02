@@ -1,19 +1,20 @@
 {
   "projects": [
-        {
+
+            {
       "visible": true,
-      "category": "Mobile Development",
-      "title": "FITNIS",
-      "description": "Actively developing a mobile fitness app to monitor users’ weightlifting progress and overall health",
-      "tags": ["Mobile Development","React Native","TypeScript", "Express"],
+      "category": "Machine Learning",
+      "title": "Formula 1 lap-by-lap prediction model",
+      "description": "Developed a machine learning neural network using Python and the TensorFlow Keras API to predict lap times and results after each lap, with ongoing efforts to reduce loss of the LSTM RNN.",
+      "tags": ["Machine Learning","Python","TensorFlow Keras"],
       "image": {
-        "src": "../../images/Lift_Tracker.png",
-        "alt": "Lift Tracker"
+        "src": "../../images/Formula1.png",
+        "alt": "F1 Logo"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/theebank/FITNIS"
+          "url": "https://github.com/theebank/LapbyLap"
         }
       ]
     },
@@ -34,25 +35,35 @@
         }
       ]
     },
-    {
+            {
       "visible": true,
-      "category": "Full-Stack Web Development",
-      "title": "Crypto Price Tracker",
-      "description": "A Full-stack crypto price tracking application built using React, Flask and data stored on a local postgres database ran using Docker. Data is automatically fetched from a flask REST api which can either gather data using coinmarketcap's api or scraping the coinmarketcap.com webpage.",
-      "tags": ["Full-Stack Web Development","React","Flask", "Python", "Postgres", "REST"],
+      "category": "Embedded Systems",
+      "title": "Solar Array IDP",
+      "description": "Developed a real-time system for the distribution panel in a solar array control system as part of a school project under an NDA.",
+      "tags": ["Embedded Systems", "C++", "UART", "GPIO", "I2C", "ADC", "BeagleBone Black"],
       "image": {
-        "src": "../../images/cryptopricetracker.png",
-        "alt": "Crypto Price Tracker"
+        "src": "../../images/BeagleBoneBlack.png",
+        "alt": "Lift Tracker"
+      }
+    },
+            {
+      "visible": true,
+      "category": "Mobile Development",
+      "title": "FITNIS",
+      "description": "Developed a mobile fitness app to monitor users’ weightlifting progress and overall health.",
+      "tags": ["Mobile Development","React Native","TypeScript", "Express"],
+      "image": {
+        "src": "../../images/Lift_Tracker.png",
+        "alt": "Lift Tracker"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/theebank/CryptoScraper"
+          "url": "https://github.com/theebank/FITNIS"
         }
       ]
-    },
-      
-        {
+    },      
+    {
       "visible": true,
       "category": "Mobile/Blockchain Development",
       "title": "Proof-of-Purchase (POP) Code",

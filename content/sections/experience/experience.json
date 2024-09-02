@@ -4,9 +4,9 @@
                 "id": 1,
                 "title": "Software Developer Co-op",
                 "companyTitle": "Syntronic R&D Canada",
-                "bulletpoints": ["Developed a Next.js (TypeScript) front-end for a QA Website, facilitating critical business operations for 300 daily users, by collaborating with the UI/UX design team in an agile environment",
-                                 "Designed an interactive 3D scatter plot graph with Three.js, easing data verification for users and tested with Jest",
-                                "Wrote front-end desktop (C#, WPF) code to support the control of an RF Scanner",
+                "bulletpoints": ["Developed the Next.js (TypeScript) front-end of a radiation dosimetry QA Website, by collaborating with the UI/UX design team in an agile environment, facilitating critical business operations for 300 daily users",
+                                 "Improved data verification user experience by designing an interactive 3D scatter plot graph with Three.js",
+                                "Developed a front-end desktop (C#, WPF) application to support the development of RF scanners",
                                 "Designed various components (TypeScript) for a Angular-based NativeScript mobile application used to visualize Seismic Activity"],
                 "companylogo": {
                     "alt": "Syntronic Logo",
@@ -19,10 +19,9 @@
                 "id": 2,
                 "title": "Telecom Technical Officer Co-op",
                 "companyTitle": "Innovation, Science, and Economic Development (ISED) Canada",
-                "bulletpoints": ["Enhanced the funding eligibility process for the $1.75 billion Universal Broadband Fund (UBF) by developing dynamic VB forms with a focus on re-usability and simplicity",
+                "bulletpoints": ["Developed dynamic application forms for the Universal Broadband Fund using VB with a focus on re-usability for future funds and simplicity for user experience",
                                  "Reduced funding applicant form generation time by 32% by optimizing SQL queries, eliminating redundant statements, and minimizing the amount of database connections",
-                                "Increased form generation efficiency by refactoring VB data consolidation functions, enabling future reuse",
-                                "Developed a task management system in VB and SQL for a 12-member team, integrating three databases, which optimized workload distribution and project management"],
+                                "Developed a task management system in VB and SQL for a 12-member team, integrating 3 databases, which optimized workload distribution and project management by balancing future tasks"],
                 "companylogo": {
                     "alt": "ISED Logo",
                     "src": "../../images/ISED.png"
@@ -34,9 +33,8 @@
                 "id": 3,
                 "title": "Telecom Technical Officer Co-op",
                 "companyTitle": "Innovation, Science, and Economic Development (ISED) Canada",
-                "bulletpoints": ["Assisted in the management of the $1.75 billion Universal Broadband Fund (UBF)",
-                                 "Conducted environmental, risk, and technical assessments on telecom systems to ascertain funding eligibility, ensuring compliance and accuracy",
-                                 "Designed a variety of agreements and application forms (VB, Microsoft Office) in an agile environment to enable accurate assessment of funding applicants"                                ],
+                "bulletpoints": ["Conducted environmental, risk, and technical assessments on 10 different telecom systems to ascertain funding eligibility for the Universal Broadband Fund, ensuring compliance and accuracy",
+                                 "Designed a variety of agreements and application forms (VB, Microsoft Office) in an agile environment to enable accurate assessment of funding applicants"],
                 "companylogo": {
                     "alt": "ISED Logo",
                     "src": "../../images/ISED.png"

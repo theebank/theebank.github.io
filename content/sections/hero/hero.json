@@ -1,5 +1,5 @@
 {
-  "intro": "Hey",
+  "intro": "Hey i'm Theeban!",
   "heroPhoto": {
     "src": "../../images/TheebanProfile.jpg",
     "alt": "My Photo"
@@ -8,11 +8,10 @@
     "src": "../../images/waving-hand.png",
     "alt": "Waving Hand Emoji"
   },
-  "title": "I'm Theeban Kumaresan!",
   "subtitle": {
-    "prefix": "I'm a MEng in Electrical and Computer Engineering candidate at the ",
+    "prefix": "I'm an ECE MEng student at the ",
     "highlight": "University of Toronto",
-    "suffix": "."
+    "suffix": "!"
   },
   "description": "",
   "socialProfiles": {
