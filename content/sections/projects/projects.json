@@ -1,6 +1,50 @@
 {
   "projects": [
-
+    {
+      "visible": true,
+      "category": "FPGA Development",
+      "title": "FPGA Image Convolution Tool",
+      "description": "Designed an image convolution tool to pass multiple filters over a 512x512 image using SystemVerilog",
+      "tags": ["FPGA","SystemVerilog","Quartus II", "ModelSim"],
+      "image": {
+        "src": "../../images/ImageConvolution.png",
+        "alt": "Image Convolution"
+      }
+    },
+    {
+      "visible": true,
+      "category": "EDA Tool Development/Hardware Engineering",
+      "title": "Maze Router EDA Tool",
+      "description": "Developed a Maze Router EDA Tool for use on a planar switch-block architecture using C++ based on a modified Lee's algorithm to minimize the amount of wire segments used. Designed a GUI using the EZGL library.",
+      "tags": ["C++","EZGL","EDA", "Routing"],
+      "image": {
+        "src": "../../images/MazeRouter.png",
+        "alt": "MazeRouter"
+      },
+      "links":[
+        {
+          "type":"github",
+          "url":"https://github.com/theebank/Maze-Router-EDA-Tool"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "Hardware Engineering/FPGA Development",
+      "title": "RISC-V Processor",
+      "description": "Designed and implemented a RISC-V based processor via Register Transfer Language VHDL including concepts such as pipelining, hazard control, and direct memory access (DMA). Synthesizable through Quartus II onto an Altera DE-2 Cyclone II development board.",
+      "tags": ["VHDL","Quartus II","FPGA"],
+      "image": {
+        "src": "../../images/RISCV.png",
+        "alt": "RISCV"
+      },
+      "links":[
+        {
+          "type":"github",
+          "url":"https://github.com/theebank/RISC-V"
+        }
+      ]
+    },
             {
       "visible": true,
       "category": "Machine Learning",
@@ -46,23 +90,6 @@
         "alt": "Lift Tracker"
       }
     },
-            {
-      "visible": true,
-      "category": "Mobile Development",
-      "title": "FITNIS",
-      "description": "Developed a mobile fitness app to monitor users’ weightlifting progress and overall health.",
-      "tags": ["Mobile Development","React Native","TypeScript", "Express"],
-      "image": {
-        "src": "../../images/Lift_Tracker.png",
-        "alt": "Lift Tracker"
-      },
-      "links": [
-        {
-          "type": "github",
-          "url": "https://github.com/theebank/FITNIS"
-        }
-      ]
-    },      
     {
       "visible": true,
       "category": "Mobile/Blockchain Development",
